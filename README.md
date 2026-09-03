@@ -34,7 +34,9 @@ unset ROS_LOCALHOST_ONLY
 export ROS_DOMAIN_ID=<YOUR-ASSIGNED-ID>
 ```
 
-where `<YOUR-ASSIGNED-ID>` can be found in this [file](ros_domain_id_list.pdf)
+where `<YOUR-ASSIGNED-ID>` can be found below.
+
+![ros_domain_id_list](ros_domain_id_list.png)
 
 
 ### IMPORTANT FOR THE CAMERA
