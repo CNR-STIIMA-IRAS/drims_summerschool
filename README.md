@@ -6,40 +6,25 @@ These are the main repository for the DRIMS Summer School:
 
 For usage instructions and setup details, please refer to each package’s README.
 
-# To use the robots (TEMPORARY FIX for 03/09/2026)
-
-Inside the DRIMS2026 docker:
-
-1. Download [drims_cells](https://github.com/CNR-STIIMA-IRAS/drims_cells) and [ur_utils_ros2_py](https://github.com/MerlinLaboratory/ur_utils_ros2_py) inside the `drims_ws` workspace
-   ```bash
-   cd /home/drims/drims_ws/src
-   git clone https://github.com/CNR-STIIMA-IRAS/drims_cells.git
-   git clone https://github.com/MerlinLaboratory/ur_utils_ros2_py.git
-   ```
-2. Build the workspace
-   ```bash
-   cd /home/drims/drims_ws
-   colcon build
-   ```
-3. source workspace
-   ```bash
-   source /home/drims/drims_ws/install/setup.bash
-   ```
-
-#### IMPORTANT!!
-On every new terminal that connect to the docker, run:
+## Docker
+To start the docker
 
 ```bash
-unset ROS_LOCALHOST_ONLY
-export ROS_DOMAIN_ID=<YOUR-ASSIGNED-ID>
+./start.sh <YOUR-ASSIGNED-ID>
 ```
 
 where `<YOUR-ASSIGNED-ID>` can be found below.
 
 ![ros_domain_id_list](ros_domain_id_list.png)
 
+to open a new terminal
 
-### IMPORTANT FOR THE CAMERA
+```bash
+./connect.sh
+```
+(this will read the ID that you gave to the last start.sh)
+
+## CAMERA
 
 To launch the camera:
 
