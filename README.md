@@ -31,10 +31,10 @@ On every new terminal that connect to the docker, run:
 
 ```bash
 unset ROS_LOCALHOST_ONLY
-export ROS_DOMAIN_ID=<YOUR-GROUP-NUMBER>
+export ROS_DOMAIN_ID=<YOUR-ASSIGNED-ID>
 ```
 
-where `<YOUR-GROUP-NUMBER>` is the number of your group.
+where `<YOUR-ASSIGNED-ID>` can be found in this [file](ros_domain_id_list.pdf)
 
 
 ### IMPORTANT FOR THE CAMERA
