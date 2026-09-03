@@ -30,7 +30,7 @@ Inside the DRIMS2026 docker:
 On every new terminal that connect to the docker, run:
 
 ```bash
-unset USE_LOCALHOST_ONLY
+unset ROS_LOCALHOST_ONLY
 export ROS_DOMAIN_ID=<YOUR-GROUP-NUMBER>
 ```
 
