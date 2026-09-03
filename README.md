@@ -6,7 +6,7 @@ These are the main repository for the DRIMS Summer School:
 
 For usage instructions and setup details, please refer to each package’s README.
 
-# To use the robots
+# To use the robots (on 03/09/2026)
 
 Inside the DRIMS2026 docker:
 1. Download [drims_cells](https://github.com/CNR-STIIMA-IRAS/drims_cells) and [ur_utils_ros2_py](https://github.com/MerlinLaboratory/ur_utils_ros2_py) inside the `drims_ws` workspace
