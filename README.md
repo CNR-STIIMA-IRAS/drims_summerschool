@@ -35,3 +35,12 @@ export ROS_DOMAIN_ID=<YOUR-GROUP-NUMBER>
 ```
 
 where `<YOUR-GROUP-NUMBER>` is the number of your group.
+
+
+### IMPORTANT FOR THE CAMERA
+
+To launch the camera:
+
+```bash
+ros2 launch depthai_ros_driver camera.launch.py namespace:=camera
+```
