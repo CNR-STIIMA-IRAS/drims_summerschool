@@ -5,3 +5,22 @@ These are the main repository for the DRIMS Summer School:
  - [drims_dice_simulator](https://github.com/CNR-STIIMA-IRAS/drims_dice_simulator): Offers a simulator for a dice.
 
 For usage instructions and setup details, please refer to each package’s README.
+
+# To use the robots
+
+Inside the DRIMS2026 docker:
+1. Download [drims_cells](https://github.com/CNR-STIIMA-IRAS/drims_cells) and [ur_utils_ros2_py](https://github.com/MerlinLaboratory/ur_utils_ros2_py) inside the `drims_ws` workspace
+   ```bash
+   cd /home/drims/drims_ws/src
+   git clone https://github.com/CNR-STIIMA-IRAS/drims_cells.git
+   git clone https://github.com/MerlinLaboratory/ur_utils_ros2_py.git
+   ```
+2. Build the workspace
+   ```bash
+   cd /home/drims/drims_ws
+   colcon build
+   ```
+3. source workspace
+   ```bash
+   source /home/drims/drims_ws/install/setup.bash
+   ```
